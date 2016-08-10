@@ -6,8 +6,10 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-    <iframe src="{{ iframe1 }}" style="border:2px #FFFFFF none; height:1200px; width:80%" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="60px" width="468px"></iframe>
-    <iframe src="{{ iframe2 }}" style="border:2px #FFFFFF none; height:1200px; width:80%" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="60px" width="468px"></iframe>
-    <iframe src="{{ iframe3 }}" style="border:2px #FFFFFF none; height:1200px; width:80%" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="60px" width="468px"></iframe>
+    <p>Your learing modality is: {{ modality }}</p>
+    <iframe src = {{ iframeSet1 }}></iframe>
+    <iframe src = {{ iframeSet2 }}></iframe>
+    <iframe src = {{ iframeSet3 }}></iframe>
+    <iframe src = {{ iframeSet4 }}></iframe>
+
 </html>
